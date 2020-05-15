@@ -1,0 +1,154 @@
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: #DAF7F6;
+	color: #3B3B3B;
+	font-size: 12px;
+	line-height: 16px;
+	
+}
+
+h1, h2, h3 {
+	font-family: "Montserrat", sans-serif;
+	color: #F16059;
+}
+
+h1{
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: inline-block;
+	margin: 0;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+h2{
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+header{
+	background-color: #FFF;
+	text-align: center;
+}
+
+header img{
+	margin-right: 20px;
+}
+
+main{
+	width: 1000px;
+	margin: auto;
+}
+
+.card{
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+.image{
+	width: 500px;
+	height: 550px;
+	float: left;
+}
+
+.recipe{
+	float: left;
+	padding: 20px;
+	width: 500px;
+	height: 550px;
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+
+.recipe h2{
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#cookies .image {
+	background-image: url('../img/gluten-free-sugar-cookies.jpg');
+	background-size: cover;
+}
+ 
+#pesto .image {
+	background-image: url('../img/nut-free-pesto.jpg');
+	background-size: cover;
+}
+
+#salad .image {
+	background-image: url('../img/watermelon-salad.jpg');
+	background-size: cover;
+}
+.time{
+	width: 460px;
+	display: inline-block;
+	border: 1px solid #3B3B3B;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.prep, .cook, .total{
+	float: left;
+	padding-left: 6px;
+	width: 33.3%;
+	box-sizing: border-box;
+}
+
+.cook {
+	border-left: 1px solid #3B3B3B;
+	border-right: 1px solid #3B3B3B;
+}
+
+.time img{
+	width: 15px;
+	height: auto;
+	vertical-align: middle;
+	margin-right: 6px;
+}
+
+.time-details{
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.time strong {
+	font-weight: bold;
+}
+
+.columns {
+	clear: both;
+}
+
+.directions {
+	float: left;
+	width: 220px;
+	margin-left: 20px;
+
+}
+
+.ingredients {
+	float: left;
+	width: 205px;
+}
+
+.recipe h3 {
+	text-transform: uppercase;
+	padding: 6px 12px 12px 6px;
+	border-top: 1px solid #3B3B3B;
+	border-bottom: 1px solid #3B3B3B;
+}
+
+.ingredients ul {
+	padding-left: 20px;
+	line-height: 18px;
+	list-style-type: square;
+}
+
+.directions ol {
+	padding-left: 20px;
+	line-height: 18px;
+}
